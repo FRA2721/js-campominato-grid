@@ -1,3 +1,134 @@
 /* developer: Francesco Cimino; */
 /* project: Griglia Campo Minato; */
 /* language: css; */
+
+/* reset-section */
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* container-formatting */
+/* container */
+.container{
+    width:95%;
+    margin:0 auto;
+    height:100px;
+}
+
+/* header-formatting */
+/* header */
+header{
+    height:100px;
+}
+
+/* title */
+.text-title{
+    margin-left:0.4em;
+}
+
+/* footer-formatting */
+/* footer */
+footer{
+    height:50px;
+    line-height: 50px;
+}
+
+/* main */
+main{
+    padding:2rem 0;
+    width:100%;
+    background-color: aquamarine;
+}
+
+/* select */
+select{
+    width:150px;
+}
+
+/* row */
+.row{
+    display:flex;
+}
+
+/* js-between */
+.js-beetween{
+    justify-content: space-between;
+}
+
+.row.js-beetween{
+    height:100%;
+}
+
+/* al-center */
+.al-center{
+    align-items: center;
+}
+
+/* game-botton */
+.game-botton{
+    padding-left:2.5em;
+    padding-right:2.5em;
+}
+
+/* grid-formatting */
+/* grid */
+.grid{
+    width:700px;
+    height:700px;
+    margin:0 auto;
+    border:1.2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* square-formatting-section (1/2/3) */
+/* square-1 */
+.square-1{
+    width:calc(100% / 10);
+    height:calc(100% / 10);
+}
+
+/* .square-2 */
+.square-2{
+    width:calc(100% / 9);
+    height:calc(100% / 9);
+}
+
+/* square-3 */
+.square-3{
+    width:calc(100% / 7);
+    height:calc(100% / 7);
+}
+
+/* general-square */
+.general-square{
+border:1px solid black;
+display:flex;
+justify-content: center;
+align-items: center; 
+cursor:pointer;
+}
+
+/* color-section */
+/* aqua */
+.aqua{
+    background-color: aqua;
+}
+
+/* play-button-formatting */
+/* play-button */
+#play-button{
+    border: none;
+    border-radius: 50px;
+    line-height: 30px;
+    transition-duration: 1s;
+}
+
+#play-button:hover{
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+}
